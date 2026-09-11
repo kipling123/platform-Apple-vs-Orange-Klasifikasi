@@ -1,0 +1,22 @@
+{
+    "scratch_cnn": {
+        "accuracy": 0.8616352081298828,
+        "val_loss": 0.8616352081298828,
+        "train_time_sec": 31.575286865234375,
+        "architecture": "4-Layer Conv2D + MaxPooling + Dense"
+    },
+    "mobilenetv2": {
+        "accuracy": 0.9182389974594116,
+        "val_loss": 0.9182389974594116,
+        "train_time_sec": 48.11416816711426,
+        "architecture": "Pre-trained MobileNetV2 + Fine-tuning"
+    },
+    "classes": [
+        "apple",
+        "orange"
+    ],
+    "img_size": [
+        150,
+        150
+    ]
+}
